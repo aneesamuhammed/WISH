@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment0.text=\r\n\ Returns\ the\ location\ and\ all\ \ details\ of\ all\ worlds\ including\ the\ cards\r\n\ currently\ on\ each\ world,\ or\ "No\ cards"\r\n\ @return\ location\ and\ details\ of\ all\ worlds\ including\ location\ \r\n\ and\ all\ cards\ currently\ on\ each\ world,\ or\ "No\ cards"\ \r\n
+comment1.params=tr
+comment1.target=java.lang.String\ findCard(int)
+comment1.text=Returns\ the\ name\ of\ the\ world\ which\ contains\ the\ specified\ card\ or\ null\r\n\ @param\ tr\ -\ the\ specified\ card\r\n\ @return\ the\ name\ of\ the\ World\ which\ contains\ the\ card,\ or\ null\r\n
+comment2.params=ww
+comment2.target=int\ getWorldNumber(java.lang.String)
+comment2.text=\ Given\ the\ name\ of\ a\ world,\ returns\ the\ world\ id\ number\r\n\ or\ -1\ if\ world\ does\ not\ exist\r\n\ @param\ name\ of\ world\r\n\ @return\ id\ number\ of\ world\r\n
+comment3.params=world
+comment3.target=java.lang.String\ getAllCardsOnOneWorld(java.lang.String)
+comment3.text=Returns\ a\ String\ representation\ of\ all\ the\ cards\ on\ specified\ world\r\n\ @return\ a\ String\ representation\ of\ all\ cards\ on\ specified\ world\r\n
+comment4.params=trId\ shtlCode
+comment4.target=boolean\ canTravel(int,\ java.lang.String)
+comment4.text=Returns\ true\ if\ a\ Card\ is\ allowed\ to\ move\ using\ the\ shuttle,\ false\ otherwise\r\n\ A\ move\ can\ be\ made\ if\:\ \ \r\n\ the\ rating\ of\ the\ card\ \ >\=\ the\ rating\ of\ the\ destination\ world\r\n\ AND\ the\ destination\ world\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ world\r\n\ AND\ the\ card\ id\ is\ for\ a\ card\ on\ the\ system\r\n\ AND\ the\ shuttle\ code\ is\ the\ code\ for\ a\ shuttle\ on\ the\ system\r\n\ @param\ trId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ shtlCode\ is\ the\ code\ of\ the\ shuttle\ journey\ by\ which\ the\ card\ wants\ to\ pCardel\r\n\ @return\ true\ if\ the\ card\ is\ allowed\ on\ the\ shuttle\ journey,\ false\ otherwise\ \r\n
+comment5.params=cardId\ shtlCode
+comment5.target=java.lang.String\ travel(int,\ java.lang.String)
+comment5.text=Returns\ the\ result\ of\ a\ card\ requesting\ to\ move\ by\ Shuttle.\r\n\ A\ move\ will\ be\ successful\ if\:\ \ \r\n\ the\ luxury\ rating\ of\ the\ card\ \ >\=\ the\ luxury\ rating\ of\ the\ destination\ world\r\n\ AND\ the\ destination\ world\ is\ not\ full\r\n\ AND\ the\ card\ has\ sufficient\ credits\r\n\ AND\ the\ card\ is\ currently\ in\ the\ source\ world\r\n\ AND\ the\ card\ id\ is\ for\ a\ card\ on\ the\ system\r\n\ AND\ the\ shuttle\ code\ is\ the\ code\ for\ a\ shuttle\ on\ the\ system\r\n\ If\ the\ shuttle\ journey\ can\ be\ made,\ the\ card\ information\ is\ removed\ from\ the\ source\r\n\ world,\ added\ to\ the\ destination\ world\ and\ a\ suitable\ message\ returned.\r\n\ \r\n\ If\ shuttle\ journey\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\r\n\ and\ a\ message\ specifying\ the\ reason\ is\ returned.\r\n\ \r\n\ @param\ pCardId\ is\ the\ id\ of\ the\ card\ requesting\ the\ move\r\n\ @param\ shtlCode\ is\ the\ code\ of\ the\ shuttle\ journey\ by\ which\ the\ card\ wants\ to\ pCardel\r\n\ @return\ a\ String\ giving\ the\ result\ of\ the\ request\ \r\n
+comment6.params=id
+comment6.target=java.lang.String\ getCardDetails(int)
+comment6.text=\ \r\n\ returns\ details\ of\ a\ card\ or\ "No\ such\ card"\ \r\n
+comment7.params=id\ coins
+comment7.target=void\ topUpBitcoins(int,\ int)
+comment7.text=\ Allows\ a\ card\ to\ top\ up\ their\ bitcoins.This\ method\ is\ not\ concerned\ with\ \r\n\ \ the\ cost\ of\ a\ bitcoin\ as\ currency\ and\ prices\ may\ vary\ between\ resorts.\r\n\ \ @param\ id\ the\ id\ of\ the\ card\ toping\ up\ their\ bitcoins\r\n\ \ @param\ coins\ the\ number\ of\ bitcoins\ to\ be\ added\ to\ card\ information\r\n
+comment8.params=id
+comment8.target=void\ convertPoints(int)
+comment8.text=\ Allows\ the\ points\ on\ a\ card\ to\ be\ converted\ to\ bitCoins\ (3\ points\ \=\ 1\ bitcoin)\r\n\ \ @param\ id\ the\ id\ of\ the\ card\ converting\ its\ points\r\n
+numComments=9

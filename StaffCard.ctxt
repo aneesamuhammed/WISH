@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StaffCard
+comment0.text=\n\ StaffCard\ class\ represents\ a\ card\ for\ staff\ members.\n\ @author\ Aneesa\ Muhammed\ &\ Mithlesh\ sukumar\ \n\ @version\ 30th\ Nov\ 2024\n
+comment1.params=cardNo\ name\ employeeNumber\ jobDescription
+comment1.target=StaffCard(int,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ incrementJourneyScore()
+comment2.text=\n\ Increments\ the\ journey\ score\ whenever\ a\ shuttle\ journey\ is\ made.\n
+comment3.params=
+comment3.target=int\ getJourneyScore()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

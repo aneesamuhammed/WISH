@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Teamwork
+comment0.text=\n\ Details\ of\ your\ team\n\ \n\ @author\ Aneesa\ Muhammed\ &\ Mithlesh\ Sukumar\ \n\ @version\ 01\ Dec\ 2024\n
+comment1.params=
+comment1.target=Teamwork()
+comment2.params=
+comment2.target=java.lang.String[]\ getTeamDetails()
+comment3.params=
+comment3.target=void\ displayDetails()
+numComments=4

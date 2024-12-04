@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TouristCard
+comment0.text=\n\ TouristCard\ class\ represents\ a\ card\ for\ tourists.\n\ @author\ Aneesa\ Muhammed\ &\ Mithlesh\ sukumar\ \n\ @version\ 30th\ Nov\ 2024\n
+comment1.params=cardNo\ name\ luxuryRating\ bitcoins\ citizenship
+comment1.target=TouristCard(int,\ java.lang.String,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getcit()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

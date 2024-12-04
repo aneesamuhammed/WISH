@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BusinessCard
+comment0.text=\n\ BusinessCard\ class\ represents\ a\ card\ for\ business\ travelers.\n\ @author\ Aneesa\ Muhammed\ &\ Mithlesh\ sukumar\ \n\ @version\ 30th\ Nov\ 2024\n
+comment1.params=cardNo\ name\ luxuryRating
+comment1.target=BusinessCard(int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ deductFreeDrink()
+comment2.text=\n\ Deducts\ one\ free\ drink\ whenever\ a\ shuttle\ journey\ is\ made.\n
+comment3.params=
+comment3.target=int\ getFreeDrinks()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
